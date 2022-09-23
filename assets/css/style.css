@@ -21,7 +21,7 @@ header h1 {
     
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -70,7 +70,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -103,7 +103,7 @@ aside img {
     max-width: 150px;
 }
 
-.content div {
+section div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,11 +112,11 @@ aside img {
     color: #ffffff;
 }
 
-.content img {
+section img {
     max-height: 200px;
 }
 
-.content h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -126,8 +126,5 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-footer h2 {
     font-size: 20px;
 }
